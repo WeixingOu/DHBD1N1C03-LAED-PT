@@ -1,0 +1,39 @@
+@import "reset";
+@import "colores";
+@import "font-family";
+@import "mixin";
+
+body{
+    font-family: $primary-font-family;
+    header{
+        background-color: $third-color;
+        text-align: center;
+    }
+
+    h1{
+        background-color: $secondary-color;
+        color: $primary-color;
+        text-align: center;
+        letter-spacing: 0.5em;
+    }
+    h2{
+        @extend h1;
+        margin-top:35px;
+        text-align: left;
+    }
+    li{
+        margin-bottom: 10px;
+    }
+    span{
+        white-space: pre-wrap;
+    }
+    footer{
+        background-color: $primary-color;
+        color: $white;
+        text-align: center;
+        line-height: 37px;
+            img{
+                vertical-align: middle;
+            }
+    }
+}
