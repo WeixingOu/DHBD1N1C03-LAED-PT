@@ -25,8 +25,7 @@ const genereMatriz = (fila, columna) => {
         let fila = [];
 
         for (let y = 0; y < columna; y++) {
-            fila.push(contador);
-            contador++;
+            fila.push(contador++);
         }
         matriz.push(fila);
     }
