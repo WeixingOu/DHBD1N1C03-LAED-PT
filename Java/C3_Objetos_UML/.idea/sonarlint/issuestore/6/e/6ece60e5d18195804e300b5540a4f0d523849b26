@@ -1,0 +1,5 @@
+
+j	java:S116"NRename this field "CBU" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ï¨èŸ8’ê ƒ1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(¢Á´Ÿ8ìÅ§ƒ1
+X
+java:S2696$"6Make the enclosing method "static" or remove this set.(ß›Çùÿÿÿÿ8îÅ§ƒ1

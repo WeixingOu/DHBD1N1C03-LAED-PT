@@ -1,0 +1,7 @@
+
+„
+java:S1450"bRemove the "veterinarioAsignado" field and declare it as a local variable in the relevant methods.(¼±Ïşÿÿÿÿ8¥ Ÿ‰1
+G
+java:S1068"*Remove this unused "numero" private field.(Œ»ÓŒ8Ÿï‰1
+Y
+java:S1068"7Remove this unused "veterinarioAsignado" private field.(¼±Ïşÿÿÿÿ8¯ï‰1

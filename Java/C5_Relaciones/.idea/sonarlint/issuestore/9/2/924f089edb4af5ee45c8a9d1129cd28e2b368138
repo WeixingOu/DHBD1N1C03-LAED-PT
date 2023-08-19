@@ -1,0 +1,11 @@
+
+W
+java:S1854":Remove this useless assignment to local variable "laptop".(Š¦¾ß8Äé÷¤Ÿ1
+H
+java:S1481"+Remove this unused "laptop" local variable.(Š¦¾ß8Ôé÷¤Ÿ1
+T	java:S106"9Replace this use of System.out or System.err by a logger.(Ó„ï08„Áß¦Ÿ1
+U	java:S106."9Replace this use of System.out or System.err by a logger.(ŸÉ‚8ËÌÆ¨Ÿ1
+T	java:S1060"9Replace this use of System.out or System.err by a logger.(úô×z8ÌÌÆ¨Ÿ1
+T	java:S1062"9Replace this use of System.out or System.err by a logger.(ÂŠÀY8ÎÌÆ¨Ÿ1
+O
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8¬ú£µŸ1
