@@ -45,10 +45,10 @@ e
 5src/org/pooherencia/futbol/digital/fc/Presidente.java,0\7\07c0d6247e565ce570b2688c326249fec9c02e37
 v
 Fsrc/org/pooherencia/registro/colegio/secundario/SistemaDeRegistro.java,2\a\2a9194678d536f42c3f8c9d3cfba9e599f31c4e2
-b
-2src/org/pooherencia/futbol/digital/fc/Miembro.java,d\1\d1e99064e219ed6dc17260d8870836daf18c2aec
 e
 5src/org/pooherencia/futbol/digital/fc/Futbolista.java,1\d\1dfcbcb095d8992f3566545c279fb898bf25281e
+b
+2src/org/pooherencia/futbol/digital/fc/Miembro.java,d\1\d1e99064e219ed6dc17260d8870836daf18c2aec
 i
 9src/org/pooherencia/futbol/digital/fc/Fisioterapeuta.java,5\f\5fbc313e1c5f96062c589ab9a373deb7d451f620
 d

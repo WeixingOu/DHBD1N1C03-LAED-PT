@@ -1,0 +1,13 @@
+
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(º¦öŠûÿÿÿÿ8ÃÄ²§1
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(º¦öŠûÿÿÿÿ8ŸÃÄ²§1
+o	java:S116"NRename this field "DNI" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èüöšıÿÿÿÿ8ŠÚÃ²§1
+p	java:S116"ORename this field "CUIT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ù³Ï‚úÿÿÿÿ8‹ÚÃ²§1
+G
+java:S1068"*Remove this unused "nuemro" private field.(¶“Ã8ÿøÁ²§1
+I
+java:S1068",Remove this unused "apellido" private field.(åÔĞÁ8ÚÃ²§1
+I
+java:S1068"'Remove this unused "DNI" private field.(èüöšıÿÿÿÿ8ÚÃ²§1
+J
+java:S1068"(Remove this unused "CUIT" private field.(ù³Ï‚úÿÿÿÿ8ÚÃ²§1
