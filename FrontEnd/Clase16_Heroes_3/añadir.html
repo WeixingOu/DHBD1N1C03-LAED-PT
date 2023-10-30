@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Añadí tu super!</title>
+
+    <!-- Fuente Inter de Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Inter" rel="stylesheet">
+
+    <link rel="stylesheet" href="css\style.css">
+</head>
+<body>
+    <header>
+        <p>20% de descuento en todos los productos!</p>
+        <div class="logotipo">
+            <img src="img\logo-tienda.svg" alt="logo-tienda">
+            <h1>Super Héroes</h1>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="#">Registrarme</a></li>
+                <li><a href="#">Ingresar</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <form action="" method="post">
+                <h2>Añadí tu super!</h2>
+                <p>Agregá tu personaje favorito completando las opciones.</p>
+                <section>
+                    <div>
+                        <label for="nombre">*Nombre</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+                    <div>
+                        <label for="especie">*Especie</label>
+                        <select id="especie" name="especie">
+                            <option value="unknown">Unknown</option>
+                            <option value="kryptoniano">Kryptoniano</option>
+                            <option value="amazona"> Amazona</option>
+                            <option value="atlante">Atlante</option>
+                            <option value="metahumano">Metahumano</option>
+                        </select>
+                    </div>
+                </section>
+
+                <section>
+                    <div>
+                        <label for="fecha">Fecha</label>
+                        <input type="date" id="fecha" name="fecha">
+                    </div>
+                    
+                    <div>
+                        <label for="foto">Agregar foto</label>
+                        <input type="file" id="foto" name="foto" accept="image/*">
+                    </div>
+                </section>
+
+                <section>
+                    <div>
+                        <textarea name="descripcion" placeholder="Descripción"></textarea>
+                    </div>
+                    <div>
+                        <label for="poderes">Poderes</label>
+                        <div class="checkbox-container">
+                            <span>
+                                <input type="checkbox" id="poderes" name="poderes" value="volar">Volar
+                            </span>
+
+                            <span>
+                                <input type="checkbox" id="poderes" name="poderes" value="superinteligencia">Superinteligencia
+                            </span>
+
+                            <span>
+                                <input type="checkbox" id="poderes" name="poderes" value="vista-de-rayo-laser">Vista de rayo laser
+                            </span>
+
+                            <span>
+                                <input type="checkbox" id="poderes" name="poderes" value="billetera-gorda">Billetera gorda
+                            </span>
+                        </div>
+                    <div>
+                        <label for="tipo-personaje">Tipo de personaje</label>
+                        <div>
+                            <span>
+                                <input type="radio" id="tipo-personaje" name="tipo-personaje" value="heroe-ina">Héroe / Heroina
+                            </span>
+                            <span>
+                                <input type="radio" id="tipo-personaje" name="tipo-personaje" value="villano-ana">Villano / Villana
+                            </span>
+                        </div>
+                    </div>
+                </section>
+
+                <button type="submit">Añadir</button>
+            </form> 
+        </div>
+    </main>
+    <footer>
+        <p>Todos los derechos reservados a FE 1</p>
+        <img src="img/logo-github.svg" alt="logo-github">
+    </footer>
+</body>

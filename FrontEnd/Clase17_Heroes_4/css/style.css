@@ -1,0 +1,327 @@
+*{  
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:'Roboto';
+}
+
+/********** ESTILOS PARA EL HEADER **********/
+
+header p{
+    background: #1CD1B0;
+
+    padding: 2px 0px 2px 10px;
+
+    display: flex;
+    align-items: center;
+}
+
+header .logotipo{
+    background: #00669F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+    color: #FFFFFF;
+
+    display: flex;
+    align-items: center;
+
+    padding:10px;
+}
+
+header .menu{
+    background: #001D2D;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    color: #FFFFFF;
+
+    display:flex;
+    justify-content: flex-end;
+
+    padding: 10px;
+}
+
+header .menu ul{
+    list-style: none;
+
+    display: flex;
+    gap: 20px;
+}
+
+header .menu a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+/********** ESTILOS PARA EL MAIN **********/
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+section article{
+    background-color: #f3f3f3;
+    border-radius: 16px 16px 0 0;
+    box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.25);
+    margin-top: 100px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: relative;
+
+    width: 300px;
+}
+
+section article .contenedor{
+    height: 200px;
+    width: 300px;
+    border-radius: 16px 16px 0 0;
+    background-size: cover;
+}
+section article div .icon-heart{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+
+    width: 24px;
+    height: 24px;
+}
+
+section article .bg-batman{
+    background-image: url("../img/bg-batman.png");
+}
+section article .bg-mujer-maravilla{
+    background-image: url("../img/bg-mujer-maravilla.png");
+}
+section article .bg-harley-quinn{
+    background-image: url("../img/bg-harley-quinn.png");
+}
+section article .bg-superman{
+    background-image: url("../img/bg-superman.png");
+}
+
+section article .profile-img{
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    position: absolute;
+    top: 130px;
+
+    width: 125px;
+}
+
+section article h3{
+    font-size: 24px;
+    margin-top: 70px;
+    text-transform: uppercase;
+}
+
+section article p{
+    font-size: 12px;
+    height: 120px;
+    margin: 10px 20px;
+    text-align: left;
+}
+
+section article button{
+    background-color: #00669F;
+    border: none;
+    color: white;
+
+    margin: 25px;
+    padding: 10px 30px;
+}
+section article button:hover{
+    cursor: pointer;
+}
+
+.boton-añadir{
+    background: #00669F;
+    font-size: 60px;
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+
+    width: 80px;
+    height: 80px;
+
+    border-radius: 50%;
+
+    display: inline-block;
+}
+
+.boton-añadir:hover{
+    background: #001D2D;
+}
+
+/********** ESTILOS PARA EL FOOTER **********/
+
+footer{
+    background-color: #00669F;
+    color: white;
+
+    margin-top: 100px;
+    padding: 30px 0;
+
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer img{
+    position: absolute;
+    right: 25px;
+    width: 100px;
+}
+
+
+/********** ESTILOS PARA EL AÑADIR FORMULARIO **********/
+form{
+    background: #00669F;
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.3);
+    border-radius: 49.0901px;   
+
+    margin-top: 100px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form h2{
+    color: #FBFFFD;
+    line-height: 71.79px
+}
+
+form p{
+    color: #FFFFFF;
+    line-height: 14px;
+}
+
+form section{
+    padding: 20px 100px;
+    display: flex;
+    
+}
+form section div{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    gap: 10px;
+}
+form section div span{
+    color: #FFFFFF;
+    display: flex;
+    gap: 20px;
+}
+form section div .checkbox-container{
+    border-bottom: 1px solid #CCCCCC;
+    height: 125px;
+}
+
+
+/* ------ Botones ------*/
+
+form button{
+    background: #1CD1B0;
+    border-radius: 23.011px;
+    border: 0;
+
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    color: #000000;
+
+    margin: 18px;
+    padding: 10px 100px;
+}
+
+/* ------ Labels ------*/
+label{
+    color: #FFFFFF;  
+    line-height: 24px;  
+}
+
+
+/* ------ Inputs ------*/
+input[type="text"],
+input[type="date"],
+select{
+    font-size: 12px;
+
+    background: #FFFFFF;
+    border: 1.53407px solid rgba(0, 0, 0, 0.1);
+    border-radius: 15.3407px;
+    
+    padding: 10px;
+}
+
+input[type="file"]{
+    background: #CECECE;
+    border-radius: 5px;
+
+    padding: 10px;
+
+}
+
+input[type="checkbox"],
+input[type="radio"]{ 
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+}
+
+textarea{
+    font-size: 12px;
+
+    background: #FFFFFF;
+    border: 1.53407px solid rgba(0, 0, 0, 0.1);
+    border-radius: 15.3407px;
+
+    padding: 10px;
+
+    height: 253.398px;
+    resize: none;
+}
+
+/* Interactividad con pseudoselectores y pseudoelementos */
+
+section article:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s;
+}
+
+header .menu a:hover {
+    color: #1CD1B0;
+}
+
+section article button:focus {
+    outline: none;
+    background-color: #001D2D;
+}
+
+form button:focus{
+    outline: none;
+    background-color: #001D2D;
+}
+
+form div label::before{
+    content: "*";
+}
+
+
+  

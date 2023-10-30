@@ -1,0 +1,11 @@
+
+|
+java:S1450"ZRemove the "horaEntrada" field and declare it as a local variable in the relevant methods.(ÿÏ²Òúÿÿÿÿ8â“¹ï 1
+v
+java:S1450"YRemove the "horaSalida" field and declare it as a local variable in the relevant methods.(£ú8â“¹ï 1
+V
+java:S5993	"9Change the visibility of this constructor to "protected".(üÜÆú8â“¹ï 1
+Q
+java:S1068"/Remove this unused "horaEntrada" private field.(ÿÏ²Òúÿÿÿÿ8ç“¹ï 1
+K
+java:S1068".Remove this unused "horaSalida" private field.(£ú8ç“¹ï 1

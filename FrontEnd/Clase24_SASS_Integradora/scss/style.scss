@@ -1,0 +1,13 @@
+@import "base";
+@import "mixin";
+@import "variables";
+
+body {
+    background-color: $third-color;
+
+    header {
+        background-color: $primary-color;
+        color: $third-color;
+        
+    }
+}

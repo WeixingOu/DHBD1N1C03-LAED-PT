@@ -1,0 +1,4 @@
+Inicio -> Luz verde -> Avanzar -> Recoger luz -> Luz roja -> Finalizar
+                |
+                v
+           Luz amarilla -> Avanzar -> Recoger luz -> Luz roja -> Finalizar

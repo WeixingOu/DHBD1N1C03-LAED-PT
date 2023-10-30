@@ -1,0 +1,21 @@
+
+]	java:S107"AConstructor has 8 parameters, which is greater than 7 authorized.(À¬¿’8«²õ¤Ÿ1
+R
+java:S1172"5Remove this unused method parameter "anoFabricacion".(À¬¿’8—õõ¤Ÿ1
+K
+java:S1656"/Remove or correct this useless self-assignment.(ã˜Ë)8šõõ¤Ÿ1
+F
+java:S1068")Remove this unused "marca" private field.(š’Ôæ8ª•Ö¤Ÿ1
+G
+java:S1068"*Remove this unused "modelo" private field.(ˆÙÌå8Ù•Ö¤Ÿ1
+J
+java:S1068"(Remove this unused "tipo" private field.(ğé»ƒşÿÿÿÿ8Ú•Ö¤Ÿ1
+F
+java:S1068")Remove this unused "disco" private field.(–µîµ8ÚŸ×¤Ÿ1
+P
+java:S1068	".Remove this unused "procesador" private field.(¸ó şÿÿÿÿ8ÚŸ×¤Ÿ1
+I
+java:S1068
+",Remove this unused "memoria1" private field.(æää‘8ÚŸ×¤Ÿ1
+I
+java:S1068",Remove this unused "memoria2" private field.(¿ó²Ş8ÚŸ×¤Ÿ1
